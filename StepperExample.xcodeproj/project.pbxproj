@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		A6CA19C92F96F7380082DCA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6CA19C42F96F7380082DCA2 /* Assets.xcassets */; };
 		A6CA19CA2F96F7380082DCA2 /* SumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6CA19C52F96F7380082DCA2 /* SumView.swift */; };
-		A6CA19CB2F96F7380082DCA2 /* Multiplying.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6CA19C62F96F7380082DCA2 /* Multiplying.swift */; };
+		A6CA19CB2F96F7380082DCA2 /* MultiplyingExercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6CA19C62F96F7380082DCA2 /* MultiplyingExercise.swift */; };
 		A6CA19CC2F96F7380082DCA2 /* StepperExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6CA19C72F96F7380082DCA2 /* StepperExampleApp.swift */; };
 		A6CA19CE2F96F7710082DCA2 /* LandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6CA19CD2F96F7710082DCA2 /* LandingView.swift */; };
 		A6CA19D02F96F8580082DCA2 /* MinusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6CA19CF2F96F8580082DCA2 /* MinusView.swift */; };
@@ -21,7 +21,7 @@
 		A69707AE2F96A5A0007FD7A8 /* StepperExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StepperExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6CA19C42F96F7380082DCA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A6CA19C52F96F7380082DCA2 /* SumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumView.swift; sourceTree = "<group>"; };
-		A6CA19C62F96F7380082DCA2 /* Multiplying.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Multiplying.swift; sourceTree = "<group>"; };
+		A6CA19C62F96F7380082DCA2 /* MultiplyingExercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplyingExercise.swift; sourceTree = "<group>"; };
 		A6CA19C72F96F7380082DCA2 /* StepperExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperExampleApp.swift; sourceTree = "<group>"; };
 		A6CA19CD2F96F7710082DCA2 /* LandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingView.swift; sourceTree = "<group>"; };
 		A6CA19CF2F96F8580082DCA2 /* MinusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinusView.swift; sourceTree = "<group>"; };
@@ -60,7 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				A6CA19C42F96F7380082DCA2 /* Assets.xcassets */,
-				A6CA19C62F96F7380082DCA2 /* Multiplying.swift */,
+				A6CA19C62F96F7380082DCA2 /* MultiplyingExercise.swift */,
 				A6CA19C72F96F7380082DCA2 /* StepperExampleApp.swift */,
 				A6CA19CD2F96F7710082DCA2 /* LandingView.swift */,
 				A6CA19C52F96F7380082DCA2 /* SumView.swift */,
@@ -146,7 +146,7 @@
 				A6CA19D22F96F94D0082DCA2 /* MultiplyView.swift in Sources */,
 				A6CA19CE2F96F7710082DCA2 /* LandingView.swift in Sources */,
 				A6CA19CA2F96F7380082DCA2 /* SumView.swift in Sources */,
-				A6CA19CB2F96F7380082DCA2 /* Multiplying.swift in Sources */,
+				A6CA19CB2F96F7380082DCA2 /* MultiplyingExercise.swift in Sources */,
 				A6CA19D02F96F8580082DCA2 /* MinusView.swift in Sources */,
 				A6CA19CC2F96F7380082DCA2 /* StepperExampleApp.swift in Sources */,
 				A6CA19D42F96FAD50082DCA2 /* DivideView.swift in Sources */,
