@@ -18,6 +18,7 @@ struct MinusView: View {
         case subtract
     }
     
+    // MARK: Computed properties
     var result: Int {
         a - b
     }

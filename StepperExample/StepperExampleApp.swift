@@ -11,7 +11,7 @@ import SwiftUI
 struct StepperExampleApp: App {
     var body: some Scene {
         WindowGroup {
-            MultiplyingView()
+            LandingView()
         }
     }
 }

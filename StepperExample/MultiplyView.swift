@@ -18,6 +18,7 @@ struct MultiplyView: View {
         case multiply
     }
     
+    // MARK: Computed properties
     var result: Int {
         a * b
     }

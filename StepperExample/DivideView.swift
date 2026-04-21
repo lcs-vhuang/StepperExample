@@ -18,6 +18,7 @@ struct DivideView: View {
         case divide
     }
     
+    // MARK: Computed properties
     var result: Double {
         Double(a) / Double(b)
     }

@@ -18,6 +18,7 @@ struct SumView: View {
         case add
     }
     
+    // MARK: Computed properties
     var result: Int {
         a + b
     }
