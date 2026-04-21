@@ -6,17 +6,28 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		A6CA19C92F96F7380082DCA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6CA19C42F96F7380082DCA2 /* Assets.xcassets */; };
+		A6CA19CA2F96F7380082DCA2 /* SumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6CA19C52F96F7380082DCA2 /* SumView.swift */; };
+		A6CA19CB2F96F7380082DCA2 /* Multiplying.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6CA19C62F96F7380082DCA2 /* Multiplying.swift */; };
+		A6CA19CC2F96F7380082DCA2 /* StepperExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6CA19C72F96F7380082DCA2 /* StepperExampleApp.swift */; };
+		A6CA19CE2F96F7710082DCA2 /* LandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6CA19CD2F96F7710082DCA2 /* LandingView.swift */; };
+		A6CA19D02F96F8580082DCA2 /* MinusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6CA19CF2F96F8580082DCA2 /* MinusView.swift */; };
+		A6CA19D22F96F94D0082DCA2 /* MultiplyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6CA19D12F96F94D0082DCA2 /* MultiplyView.swift */; };
+		A6CA19D42F96FAD50082DCA2 /* DivideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6CA19D32F96FAD50082DCA2 /* DivideView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		A69707AE2F96A5A0007FD7A8 /* StepperExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StepperExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6CA19C42F96F7380082DCA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A6CA19C52F96F7380082DCA2 /* SumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumView.swift; sourceTree = "<group>"; };
+		A6CA19C62F96F7380082DCA2 /* Multiplying.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Multiplying.swift; sourceTree = "<group>"; };
+		A6CA19C72F96F7380082DCA2 /* StepperExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperExampleApp.swift; sourceTree = "<group>"; };
+		A6CA19CD2F96F7710082DCA2 /* LandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingView.swift; sourceTree = "<group>"; };
+		A6CA19CF2F96F8580082DCA2 /* MinusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinusView.swift; sourceTree = "<group>"; };
+		A6CA19D12F96F94D0082DCA2 /* MultiplyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplyView.swift; sourceTree = "<group>"; };
+		A6CA19D32F96FAD50082DCA2 /* DivideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DivideView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		A69707B02F96A5A0007FD7A8 /* StepperExample */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = StepperExample;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		A69707AB2F96A5A0007FD7A8 /* Frameworks */ = {
@@ -32,7 +43,7 @@
 		A69707A52F96A5A0007FD7A8 = {
 			isa = PBXGroup;
 			children = (
-				A69707B02F96A5A0007FD7A8 /* StepperExample */,
+				A6CA19C82F96F7380082DCA2 /* StepperExample */,
 				A69707AF2F96A5A0007FD7A8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +54,21 @@
 				A69707AE2F96A5A0007FD7A8 /* StepperExample.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		A6CA19C82F96F7380082DCA2 /* StepperExample */ = {
+			isa = PBXGroup;
+			children = (
+				A6CA19C42F96F7380082DCA2 /* Assets.xcassets */,
+				A6CA19C62F96F7380082DCA2 /* Multiplying.swift */,
+				A6CA19C72F96F7380082DCA2 /* StepperExampleApp.swift */,
+				A6CA19CD2F96F7710082DCA2 /* LandingView.swift */,
+				A6CA19C52F96F7380082DCA2 /* SumView.swift */,
+				A6CA19CF2F96F8580082DCA2 /* MinusView.swift */,
+				A6CA19D12F96F94D0082DCA2 /* MultiplyView.swift */,
+				A6CA19D32F96FAD50082DCA2 /* DivideView.swift */,
+			);
+			path = StepperExample;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +85,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				A69707B02F96A5A0007FD7A8 /* StepperExample */,
 			);
 			name = StepperExample;
 			packageProductDependencies = (
@@ -109,6 +132,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6CA19C92F96F7380082DCA2 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +143,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6CA19D22F96F94D0082DCA2 /* MultiplyView.swift in Sources */,
+				A6CA19CE2F96F7710082DCA2 /* LandingView.swift in Sources */,
+				A6CA19CA2F96F7380082DCA2 /* SumView.swift in Sources */,
+				A6CA19CB2F96F7380082DCA2 /* Multiplying.swift in Sources */,
+				A6CA19D02F96F8580082DCA2 /* MinusView.swift in Sources */,
+				A6CA19CC2F96F7380082DCA2 /* StepperExampleApp.swift in Sources */,
+				A6CA19D42F96FAD50082DCA2 /* DivideView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

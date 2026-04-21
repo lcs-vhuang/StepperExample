@@ -1,11 +1,11 @@
 //
-//  ContentView.swift
+//  Multiplying.swift
 //  StepperExample
 //
  
 import SwiftUI
  
-struct ContentView: View {
+struct MultiplyingView: View {
     
     // MARK: Stored properties
     @State var base: Int = 1
@@ -15,6 +15,15 @@ struct ContentView: View {
         return base * base
     }
     
+    var formattedBase: String {
+        if base < 0 {
+            return "(\(base))"
+        } else {
+            return "\(base)"
+        }
+    }
+    
+    
     var body: some View {
         VStack {
             
@@ -22,7 +31,7 @@ struct ContentView: View {
             
             HStack(alignment: .top) {
  
-                Text("\(base)")
+                Text("\(formattedBase)")
                     .font(.system(size: 96))
  
                 Text("2")
@@ -46,6 +55,6 @@ struct ContentView: View {
 }
  
 #Preview {
-    ContentView()
+    MultiplyingView()
 }
  
